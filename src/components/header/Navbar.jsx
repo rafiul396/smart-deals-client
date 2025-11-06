@@ -5,10 +5,10 @@ import profile from '../../assets/thumb-profile.png'
 const Navbar = () => {
     const menus = <>
             <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/products">All Products</NavLink></li>
+            <li><NavLink to="/all-products">All Products</NavLink></li>
             <li><NavLink to="/myproducts">My Products</NavLink></li>
             <li><NavLink to="/mybids">My Bids</NavLink></li>
-            <li><NavLink to="/createproducts">Create Product</NavLink></li>
+            <li><NavLink to="/create-products">Create Product</NavLink></li>
         </>
     
     return (

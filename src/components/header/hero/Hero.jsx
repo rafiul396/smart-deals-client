@@ -18,19 +18,19 @@ const Hero = () => {
 
                     <div className="join w-full justify-center">
                         <div className='w-1/2'>
-                            <label className="input validator join-item w-full rounded-l-full outline-none">
+                            <label className="input bg-white validator join-item w-full rounded-l-full outline-none">
                                 <input className='outline-none' type="text" placeholder="Search For Products, Categoriees..." required />
                             </label>
                         </div>
-                        <button className="btn btn-neutral join-item linear-bg border-none rounded-r-full text-xl outline-none">
+                        <button className="btn btn-neutral text-white join-item linear-bg border-none rounded-r-full text-xl outline-none">
                             <FaSearch />
                         </button>
                     </div>
                     <div className='text-center space-x-3'>
-                        <button className='btn linear-bg text-white font-semibold text-lg py-6 border-[#632EE3] '>
+                        <button className='btn linear-bg text-white font-semibold text-lg py-7 gradient-border rounded-lg '>
                             Watch All Products
                         </button>
-                        <button className='btn font-semibold text-lg py-6 border border-[#632EE3] text-[#632EE3]'>
+                        <button className='btn font-semibold text-lg py-7 border border-[#632EE3] text-[#632EE3] rounded-lg'>
                             Post an Product
                         </button>
                     </div>
